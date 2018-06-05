@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlWave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/redWave1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:background="@drawable/oval_blue" />
+
+        <View
+            android:id="@+id/redWave2"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:background="@drawable/oval_green" />
+
+        <View
+            android:id="@+id/redWave3"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:background="@drawable/oval_red" />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/flLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btnLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_loader"
+            android:padding="8dp"
+            android:text="Start Loader"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp" />
+
+    </FrameLayout>
+
+</FrameLayout>
